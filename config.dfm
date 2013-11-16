@@ -44,6 +44,10 @@ object ConfigForm: TConfigForm
         Margins.Right = 4
         Margins.Bottom = 4
         Caption = 'Sources'
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object Panel3: TPanel
           Left = 0
           Top = 0
