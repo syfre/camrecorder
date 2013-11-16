@@ -26,8 +26,6 @@ object ConfigForm: TConfigForm
     BorderWidth = 5
     ParentColor = True
     TabOrder = 0
-    ExplicitWidth = 576
-    ExplicitHeight = 406
     object PageControl1: TPageControl
       Left = 5
       Top = 5
@@ -40,16 +38,12 @@ object ConfigForm: TConfigForm
       ActivePage = tsSource
       Align = alClient
       TabOrder = 0
-      ExplicitWidth = 566
-      ExplicitHeight = 396
       object tsSource: TTabSheet
         Margins.Left = 4
         Margins.Top = 4
         Margins.Right = 4
         Margins.Bottom = 4
         Caption = 'Sources'
-        ExplicitWidth = 558
-        ExplicitHeight = 365
         object Panel3: TPanel
           Left = 0
           Top = 0
@@ -58,7 +52,6 @@ object ConfigForm: TConfigForm
           Align = alTop
           BevelOuter = bvNone
           TabOrder = 0
-          ExplicitWidth = 558
           object Label3: TLabel
             Left = 10
             Top = 118
@@ -120,7 +113,6 @@ object ConfigForm: TConfigForm
           Height = 185
           Align = alTop
           TabOrder = 1
-          ExplicitWidth = 558
           object Label4: TLabel
             Left = 10
             Top = 6
@@ -179,6 +171,8 @@ object ConfigForm: TConfigForm
         Margins.Right = 4
         Margins.Bottom = 4
         Caption = 'Preferences'
+        ExplicitLeft = 0
+        ExplicitTop = 0
         ExplicitWidth = 558
         ExplicitHeight = 365
         object Panel5: TPanel
@@ -242,8 +236,6 @@ object ConfigForm: TConfigForm
     BevelOuter = bvNone
     ParentColor = True
     TabOrder = 1
-    ExplicitTop = 406
-    ExplicitWidth = 576
     object OKBtn: TButton
       Left = 230
       Top = 2
